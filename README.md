@@ -2,25 +2,4 @@
 
 # JS Datatype, Loops and Conditionals
 
-
-## Class
-
-- Strings
-- Numbers
-- Booleans
-- NULL
-- Undefined
-
-## Exercises
-
-- Create variables in different types
-- Use logic in if...else conditionals
-- Use loops
-
-## Extra Resources
-
-- [Link to Extra Resource 1](# Extra Resources 1)
-
-- [Link to Extra Resource 2](# Extra Resources 2)
-
-- [Link to Extra Resource 3](# Extra Resources 3)
+# Module 1 - Day 1
