@@ -1,1 +1,1 @@
-// Practice JS datatypes
+// Practice JS datatypes and operands
