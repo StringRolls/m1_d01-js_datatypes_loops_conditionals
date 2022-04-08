@@ -1,14 +1,6 @@
 // Practice loops
-// 1
-
-for(let i = 1; i<= 50; i++){
-    if(i % 5 === 0 && i % 7 === 0  ) console.log("ironhack")
-    else if(i % 5 === 0) console.log("iron")
-    else if( i % 7 === 0 ) console.log("hack")
-    else console.log(i);
-  }
   
-  // 2: Use any loop. Given the iterable let str='hello,dear.friend! nice,to.see you!', 
+  // 1: Use any loop. Given the iterable let str='hello,dear.friend! nice,to.see you!', 
   // replace each dot and comma with space. The final output should be: hello dear friend! nice to see you!.
   
   let str = 'hello,dear.friend! nice,to.see you!'
@@ -47,3 +39,20 @@ for(let i = 1; i<= 50; i++){
   }
   
   console.log(str); // hello dear friend! nice to see you!
+
+  // 2. Loop from 0 to 15 with the conditions:
+// For every number that is divisible by 3 output ‘Fizz’ in the console
+// For every number that is divisible by 5 output ‘Buzz’ in the console
+// For every number that is divisible by 3 and 5 output ‘FizzBuzz’ in the console
+
+for(let i = 0; i<= 15; i++){
+  if(i % 5 === 0 && i % 3 === 0  ) {
+     console.log("FizzBuzz")
+  }
+  else if(i % 3 === 0) {
+    console.log("Fizz")
+  }
+  else if( i % 5 === 0 ) {
+     console.log("Buzz")
+  }
+}
