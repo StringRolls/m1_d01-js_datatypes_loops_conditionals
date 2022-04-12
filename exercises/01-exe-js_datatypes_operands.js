@@ -1,8 +1,8 @@
 // Practice JS datatypes and operands
 
 // 1. Create variables with your first name, last name and age.
-let firstName = 'john';
-let lastName = 'doe';
+let firstName = "john";
+let lastName = "doe";
 let age = 29;
 
 // 2. Make the first letters of your first and last name capitalized.
@@ -17,7 +17,7 @@ console.log(capLastName); // Doe
 
 let fullName = `${capFirstName} ${capLastName}`;
 
-// other: 
+// other:
 // let fullName = capFirstName + ' ' + capLastName;
 
 console.log(fullName); // John Doe
@@ -41,12 +41,12 @@ city[0] = "B";
 console.log(city); // ==> berlin
 
 const message = "Don't be sad, be happy!";
-console.log(message.slice(0,3, "don"));
+console.log(message.slice(0, 3, "don"));
 console.log(message); // ==> "don't be sad, be happy!"
 
-const statement = 'I love JavaScript!';
-const subStatement = statement.substr(2, 9);
+const statement = "I love JavaScript!";
+const subStatement = statement.substring(2, 9);
 console.log(subStatement); // ==> "love Java"
 
-subStatement[0] = subSstatement[0].toUpperCase();
+subStatement[0] = subStatement[0].toUpperCase();
 console.log(subStatement); // ==> "love Java"
